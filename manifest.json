@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Steamgifts helper",
+  "description": "This extension modifies the html of the steamgifts.com search results",
+  "version": "0.1",
+
+  "content_scripts": [
+	{
+      "matches": ["http://www.steamgifts.com/*"],
+      "js": ["jquery-1.11.3.min.js","giftsHelper.js"]
+    }],
+  "permissions": ["http://www.steamgifts.com/*"]
+}
