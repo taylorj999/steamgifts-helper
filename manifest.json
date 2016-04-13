@@ -7,8 +7,8 @@
 
   "content_scripts": [
 	{
-      "matches": ["http://www.steamgifts.com/*"],
+      "matches": ["http://www.steamgifts.com/*","https://www.steamgifts.com/*"],
       "js": ["jquery-1.11.3.min.js","giftsHelper.js"]
     }],
-  "permissions": ["http://www.steamgifts.com/*"]
+  "permissions": ["http://www.steamgifts.com/*","https://www.steamgifts.com/*"]
 }
